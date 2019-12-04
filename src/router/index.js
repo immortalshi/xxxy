@@ -68,6 +68,28 @@ const router = new Router({
           path:'/chattingRoom',
           name:'chattingRoom',
           component:chattingRoom,
+          children:[
+            {
+              path:'/kt',
+              name:'kt',
+              component:kt,
+            },
+            {
+              path:'/jp',
+              name:'jp',
+              component:jp,
+            },
+            {
+              path:'/tp',
+              name:'tp',
+              component:tp,
+            },
+            {
+              path:'/sp',
+              name:'sp',
+              component:sp,
+            },
+          ]
         },
         {
           path:'/library',
@@ -99,27 +121,7 @@ const router = new Router({
           name:'study',
           component:study,
         },
-        {
-          path:'kt',
-          name:'kt',
-          component:kt,
-          redirect:'/chattingRoom',
-        },
-        {
-          path:'/jp',
-          name:'jp',
-          component:jp,
-        },
-        {
-          path:'/tp',
-          name:'tp',
-          component:tp,
-        },
-        {
-          path:'/sp',
-          name:'sp',
-          component:sp,
-        },
+
       ]
 /*    }
   ]*/

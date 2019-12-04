@@ -51,7 +51,7 @@
                   </el-menu-item>
                 </el-menu-item-group>
               </el-submenu>
-              <el-menu-item index="chattingRoom">
+              <el-menu-item index="kt">
                 <i class="el-icon-chat-line-square"></i>
                 <span slot="title">聊天室</span>
               </el-menu-item>
@@ -60,38 +60,38 @@
                 <span slot="title">我要投稿</span>
               </el-menu-item>
 
-              <el-submenu index="5">
+              <!--<el-submenu index="5">
                 <template slot="title">
                   <i class="el-icon-s-custom"></i>
                   <span>干部竞选</span>
                 </template>
                 <el-menu-item-group>
                   <el-menu-item index="chief">
-                    <!--<i class="el-icon-s-order"></i>-->
+                    &lt;!&ndash;<i class="el-icon-s-order"></i>&ndash;&gt;
                     <span>社长</span>
                   </el-menu-item>
                   <el-menu-item index="secretary">
-                    <!--<i class="el-icon-star-on"></i>-->
+                    &lt;!&ndash;<i class="el-icon-star-on"></i>&ndash;&gt;
                     <span>秘书长</span>
                   </el-menu-item>
                   <el-menu-item index="study">
-                    <!--<i class="el-icon-present"></i>-->
+                    &lt;!&ndash;<i class="el-icon-present"></i>&ndash;&gt;
                     <span>学习部长</span>
                   </el-menu-item>
                   <el-menu-item index="logistics">
-                    <!--<i class="el-icon-delete-solid"></i>-->
+                    &lt;!&ndash;<i class="el-icon-delete-solid"></i>&ndash;&gt;
                     <span>后勤部长</span>
                   </el-menu-item>
                   <el-menu-item index="outreach">
-                    <!--<i class="el-icon-delete-solid"></i>-->
+                    &lt;!&ndash;<i class="el-icon-delete-solid"></i>&ndash;&gt;
                     <span>外联部长</span>
                   </el-menu-item>
                 </el-menu-item-group>
-              </el-submenu>
+              </el-submenu>-->
 
               <el-menu-item index="library" >
                 <i class="el-icon-collection"></i>
-                <span slot="title">图书馆</span>
+                <span>图书馆</span>
               </el-menu-item>
             </el-menu>
           </el-col>
@@ -145,7 +145,6 @@
     background-color: #E9EEF3;
     color: #333;
     text-align: center;
-    line-height: 160px;
     min-height: 650px;
     max-height: 1000px;
     padding: 0px;

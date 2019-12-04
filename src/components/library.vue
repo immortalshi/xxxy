@@ -1,7 +1,6 @@
-<template>
-  <div>welcome to the library</div>
-</template>
-
+  <template>
+    <div>welcome to the library</div>
+  </template>
 <script>
   export default {
     name: 'library',

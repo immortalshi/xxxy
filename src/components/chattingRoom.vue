@@ -15,16 +15,7 @@
         <router-view></router-view>
       </el-main>
     </el-container>
-    <el-aside width="200px">Aside</el-aside>
   </el-container>
-    <el-footer style=" background-color: #99a9bf">
-      <el-input
-        placeholder="请输入内容"
-        v-model="input"
-        @focus="openModel()"
-        clearable>
-      </el-input>
-    </el-footer>
 </el-container>
 </div>
 </template>

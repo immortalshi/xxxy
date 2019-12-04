@@ -22,15 +22,6 @@
     max-height: 1060px;
   }
 
-  .el-main {
-    background-color: #E9EEF3;
-    color: #333;
-    text-align: center;
-    line-height: 160px;
-    min-height: 650px;
-    max-height: 1000px;
-  }
-
   .el-col {
     border-radius: 4px;
   }
