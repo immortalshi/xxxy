@@ -4,14 +4,14 @@
       <el-main>
         <el-main>看帖</el-main>
         <el-footer style=" background-color: #99a9bf">
-          <el-input v-model="input" placeholder="请输入内容" @focus="dialogFormVisible = true;clear()"></el-input>
+          <el-input v-model="input"  placeholder="请输入内容" @focus="dialogFormVisible = true;clear()"></el-input>
         </el-footer>
       </el-main>
       <el-aside width="250px">
         <div id="usePic">大头照</div>
       </el-aside>
     </el-container>
-    <el-dialog title="帖子" :visible.sync="dialogFormVisible"  ><!--模态框-->
+    <el-dialog title="帖子" :visible.sync="dialogFormVisible" :close-on-press-escape="false" :close-on-click-modal="false"  ><!--模态框-->
       <el-form :model="form">
         <el-form-item label="标题" :label-width="formLabelWidth">
           <el-input v-model="form.title" autocomplete="off"></el-input>
@@ -21,7 +21,7 @@
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
-        <el-button type="primary" @click="dialogFormVisible = false" v-on:keyup.enter="submit" style="margin: auto">发送</el-button>
+        <el-button type="primary" @click="submit" style="margin: auto">发送</el-button>
       </div>
     </el-dialog>
   </div>
@@ -47,10 +47,9 @@
         this.form.file=''
       },
       submit(){
-        alert("111")
         this.dialogFormVisible = false
-      }
-    }
+      },
+    },
   }
 </script>
 

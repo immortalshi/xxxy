@@ -10,14 +10,15 @@
           show-word-limit
         >
         </el-input>
+        <el-button type="primary" size="large" round>主要按钮</el-button>
       </div>
     </el-tab-pane>
+    <el-tab-pane label="我的文章"><div class="tab-body">暂无文章</div></el-tab-pane>
     <el-tab-pane label="垃圾箱">
       <div class="tab-body">
         垃圾箱
       </div>
     </el-tab-pane>
-    <el-tab-pane label="我的消息"><div class="tab-body">暂无消息</div></el-tab-pane>
   </el-tabs>
 </template>
 
@@ -47,6 +48,6 @@
   }
 
   /deep/ .el-textarea__inner{
-    height:580px;
+    height:540px;
   }
 </style>

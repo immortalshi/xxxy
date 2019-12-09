@@ -41,14 +41,14 @@
                     <i class="el-icon-star-on"></i>
                     <span>我的收藏</span>
                   </el-menu-item>
-                  <el-menu-item index="presents">
+                  <!--<el-menu-item index="presents">
                     <i class="el-icon-present"></i>
                     <span>我的礼物</span>
-                  </el-menu-item>
-                  <el-menu-item index="bin">
+                  </el-menu-item>-->
+                  <!--<el-menu-item index="bin">
                     <i class="el-icon-delete-solid"></i>
                     <span>垃圾箱</span>
-                  </el-menu-item>
+                  </el-menu-item>-->
                 </el-menu-item-group>
               </el-submenu>
               <el-menu-item index="kt">
